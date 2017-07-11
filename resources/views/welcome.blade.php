@@ -19,9 +19,9 @@
             font-weight: 100;
             height: 100vh;
             margin: 0;
-            background: url('/img/spark-bg.png');
+            background: url('/img/new-bg.png');
             background-repeat: repeat;
-            background-size: 300px 170px;
+            background-size: 300px 300px;
         }
 
         .full-height {
