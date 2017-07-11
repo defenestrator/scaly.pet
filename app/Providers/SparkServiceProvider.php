@@ -13,11 +13,11 @@ class SparkServiceProvider extends ServiceProvider
      * @var array
      */
     protected $details = [
-        'vendor' => 'Your Company',
-        'product' => 'Your Product',
-        'street' => 'PO Box 111',
-        'location' => 'Your Town, NY 12345',
-        'phone' => '555-555-5555',
+        'vendor' => 'Scaly Pet',
+        'product' => 'Exotic Animals',
+        'street' => '1412 W. Washington',
+        'location' => 'Boise, ID 83702',
+        'phone' => '208-283-8654',
     ];
 
     /**
@@ -33,7 +33,7 @@ class SparkServiceProvider extends ServiceProvider
      * @var array
      */
     protected $developers = [
-        //
+        'jeremyblc@gmail.com'
     ];
 
     /**
@@ -50,17 +50,27 @@ class SparkServiceProvider extends ServiceProvider
      */
     public function booted()
     {
-        Spark::useStripe()->noCardUpFront()->trialDays(10);
+        Spark::useStripe()->noCardUpFront()->trialDays(0);
 
         Spark::freePlan()
+            ->price(0)
             ->features([
-                'First', 'Second', 'Third'
+                'View and Purchase from Sellers', 'Browse the Forums'
             ]);
 
-        Spark::plan('Basic', 'provider-id-1')
-            ->price(10)
+        Spark::plan('Monthly', 'scaly-pet-monthly')
+            ->price(3)
+            ->trialDays(0)
             ->features([
-                'First', 'Second', 'Third'
+                'Become a Seller!', 'Post in the Forums', 'Be a part of the community'
+            ]);
+
+        Spark::plan('Yearly', 'scaly-pet-yearly')
+            ->price(30)
+            ->trialDays(0)
+            ->yearly()
+            ->features([
+                'Annual membership is 20% cheaper!', 'Sell Animals or Products', 'Post in the Forums', 'Be a part of the community'
             ]);
     }
 }

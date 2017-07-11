@@ -14,8 +14,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="/home">
-                <!-- Spark -->
-                <img src="/img/mono-logo.png" style="height: 32px;">
+                <h2>scaly pet</h2>
             </a>
         </div>
 

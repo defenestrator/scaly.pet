@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Scaly Pet</title>
+    <title>Laravel</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -19,9 +19,6 @@
             font-weight: 100;
             height: 100vh;
             margin: 0;
-            background: url('/img/spark-bg.png');
-            background-repeat: repeat;
-            background-size: 300px 170px;
         }
 
         .full-height {
@@ -50,15 +47,10 @@
 
         .title {
             font-size: 84px;
-            color: #2e5d2e;
-        }
-
-        .subtitle {
-            font-size: 28px;
         }
 
         .links > a {
-            color: #3f844e;
+            color: #636b6f;
             padding: 0 25px;
             font-size: 12px;
             font-weight: 600;
@@ -87,16 +79,15 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Scaly Pet
+            Laravel
         </div>
-        <div class="subtitle m-b-md">
-            Exotic Animal Community Marketplace
-        </div>
+
         <div class="links">
-            <a href="shop">Shop</a>
-            <a href="sell">Sell</a>
-            <a href="forum">Forum</a>
-            <a href="blog">Blog</a>
+            <a href="https://laravel.com/docs">Documentation</a>
+            <a href="https://laracasts.com">Laracasts</a>
+            <a href="https://laravel-news.com">News</a>
+            <a href="https://forge.laravel.com">Forge</a>
+            <a href="https://github.com/laravel/laravel">GitHub</a>
         </div>
     </div>
 </div>

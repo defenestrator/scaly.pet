@@ -1,6 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "defenestrator/scaly.pet",
+    "description": "Exotic Pet Community Marketplace",
     "keywords": [
         "framework",
         "laravel"
