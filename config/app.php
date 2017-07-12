@@ -167,6 +167,8 @@ return [
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
+        TCG\Voyager\VoyagerServiceProvider::class,
+        DevDojo\Chatter\ChatterServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -178,9 +180,7 @@ return [
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
-        Yab\Laracogs\LaracogsProvider::class
-
+        App\Providers\RouteServiceProvider::class
     ],
 
     /*

@@ -15,7 +15,7 @@
     <!-- CSS -->
     <link href="/css/sweetalert.css" rel="stylesheet">
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-
+    @yield('css')
     <!-- Scripts -->
     @yield('scripts', '')
 
@@ -49,5 +49,6 @@
     <!-- JavaScript -->
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="/js/sweetalert.min.js"></script>
+    @yield('js')
 </body>
 </html>

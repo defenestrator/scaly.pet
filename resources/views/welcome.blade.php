@@ -95,7 +95,7 @@
         <div class="links">
             <a href="shop">Shop</a>
             <a href="sell">Sell</a>
-            <a href="forum">Forum</a>
+            <a href="forums">Forum</a>
             <a href="blog">Blog</a>
         </div>
     </div>
