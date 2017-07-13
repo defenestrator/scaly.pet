@@ -14,3 +14,8 @@
 Route::get('/', 'WelcomeController@show');
 
 Route::get('/home', 'HomeController@show');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
