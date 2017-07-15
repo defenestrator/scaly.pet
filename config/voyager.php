@@ -170,11 +170,6 @@ return [
     'dashboard' => [
         // Add custom list items to navbar's dropdown
         'navbar_items' => [
-            'Profile' => [
-                'route'         => 'voyager.profile',
-                'classes'       => 'class-full-of-rum',
-                'icon_class'    => 'voyager-person',
-            ],
             'Home' => [
                 'route'         => '/',
                 'icon_class'    => 'voyager-home',
