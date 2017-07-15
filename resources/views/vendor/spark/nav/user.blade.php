@@ -71,6 +71,11 @@
                                 @include('spark::nav.developer')
                             @endif
 
+                            <!-- Administration -->
+                            @if (Spark::developer(Auth::user()->email))
+                                @include('nav.admin')
+                            @endif
+
                             <!-- Subscription Reminders -->
                             @include('spark::nav.subscriptions')
 

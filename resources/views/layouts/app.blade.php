@@ -1,1 +1,0 @@
-@extends('spark::layouts.app')
