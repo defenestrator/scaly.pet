@@ -7373,3 +7373,6 @@ body {
 [v-cloak] {
   display: none;
 }
+#chatter #chatter_hero {
+  background-image: url(/img/schooling-discus-fish-1727842_1920-edit.jpg);
+}
